@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.nav{
+  width:100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: aqua;
+}
+.nav a{
+  color: aqua;
+  text-decoration: none;
+}
+.nav a:hover{
+  font-size: 25px;
+  color:red
+
+}
+.formcon{
+  width:100%;
+  height: 90vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  width:40%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  padding: 30px 0px;
+}
+.form input{
+  border: none;
+  border-bottom: 2px solid gray;
+  color:white;
+  background-color: transparent;
+}
+::placeholder{
+  color: blueviolet;
+}
+.msg{
+  color:red;
+  font-size: 25px;
+}
+
+.con{
+  width:100%;
+  height: 90vh;
+  background-color:cadetblue;
+  display: flex;
+}
+.sidemenu{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  background-color: coral;
+}
+.maincon{
+  width:60%;
+  overflow:scroll;
+  scrollbar-width: none;
+
+}
+.adv{
+  width:20%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  
+}
+.adv iframe{
+  width:100%;
+  height:50%
+}
+
+.newscon{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+.postcon{
+  width:80%;
+  font-size: 12px;
+}
+.hd{
+  font-size: 15px;
+  font-weight: bold;
+  color: brown;
+  text-transform: capitalize;
+}
+
+.postcon h3{
+  font-weight: lighter;
+  font-size: 13px;
+  color: blue;
+  width: 100%;
+  text-align: right;
+
+}
+button{
+  cursor: pointer;
+}
